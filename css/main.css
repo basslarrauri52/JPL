@@ -1,0 +1,154 @@
+/*---------------------------Colors--------------------------------------------
+Forest Green--------#228b22
+Medium Aquamarine---#66cdaa
+Orange Text Glow----#f87
+-----------------------------------------------------------------------------*/
+
+/*===================Main Body Styling=======================================*/
+body {
+	background-image: url(../images/site-background.jpg); /*Set background for the site*/
+	background-repeat: repeat; /*make background image repeat on all axes*/
+	background-attachment:scroll; /*make background scroll*/
+	overflow: auto; /*make any overflow scroll*/
+	max-width: 100%; /*set maximum width of the body*/
+	margin: 0 auto; /*set the top and bottom margin to 0 and the right and left to auto*/
+	}
+	
+/*====================Take text decoration off of all link elements===========
+                      And take styling off all lists=========================*/
+a {
+	text-decoration: none;
+	}
+	
+ul {
+	list-style-type: none;
+	}
+	
+/*=================Header Styling Elements===================================*/
+header {
+	background-image: url(../images/card-background.jpg); /*Set background for the header*/
+	background-repeat: repeat-x; /*make header background repeat on x-axis if necessary*/
+	margin-top: 1.953125%; /*set header top margin to 15px in percent for scaling*/
+	margin-left: auto; /*declaring a left & right margin of auto centers the header box*/
+	margin-right: auto; /*declaring a left & right margin of auto centers the header box*/
+	width: 70%; /*set width of the header to 70% of the entire screen*/
+	border-radius: 15px;
+	}
+	
+header img { /*set even sides for display of both escape hatch logos */
+	margin: 20px 15px 0;
+	opacity: .6;
+	}
+	
+header h1 { /*get the name of the business to evenly display in the middle of the logos*/
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 70px;
+	font-family: 'Eagle Lake', cursive, sans-serif;
+	font-size: 2em;
+	}
+	
+h1 a { /*set the text color and a glowing shadow on the business name*/
+	color: #228b22;
+	text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87, 0 0 0.2em #F87, 0 0 0.2em #F87; /*apply the same text shadow 4 times to make the title seem like it is lit up*/
+	}
+	
+h1 a:hover{
+	color: black;
+	}
+	
+#slogan, #phone { /*set the slogan and phone number to appear in the center under the business name*/
+	color: #228b22;
+	font-weight: bolder;
+	text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87, 0 0 0.2em #F87, 0 0 0.2em #F87; /*apply the same text shadow 4 times to make the title seem like it is lit up*/
+	text-align: center;
+	margin-left: -40px;
+	font-family: 'Eagle Lake', cursive, sans-serif;
+	font-size: 1.2em;
+	}
+	
+	
+        /*-------------Make logos display on either side of site heading----------*/	
+header img, h1 {
+	float: left;
+	}
+	
+        /*-------------Make slogan, phone, and nav display under logos and head-----*/
+        
+#slogan, #phone, nav {
+	clear: both;
+	}
+	
+#phone {
+	padding-bottom: 20px;
+	}
+	
+		/*--------------Make image gallery and things under display under the header----------------*/
+		
+#images, article, section, aside  {
+	clear: both;
+	}
+	
+/*===========================Set up the navigation bar===============================*/
+
+nav { /* clear nav floats and set margins and padding*/
+	clear: both;
+	padding-bottom: 20px;
+	margin-top: -20px;
+	}
+	
+nav ul { /*set nav width, background, etc.*/
+	width: 70%;
+	background-color: #66cdaa;
+	margin: 0 auto;
+	border-radius: 15px;
+	overflow: hidden;
+	margin: 0 auto;
+	}
+	
+nav li { /*set text style, size, and nav element setup*/
+	float: left;
+	margin: 0 30px;
+	font-family: 'Eagle Lake', cursive, sans-serif;
+	font-size: 1em;
+	font-weight: bolder;
+	}
+	
+nav a { /*set link elements*/
+	display: block;
+	line-height: 30px;
+	color: #228b22;
+	text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87, 0 0 0.2em #F87, 0 0 0.2em #F87; /*apply the same text shadow 4 times to make the title seem like it is lit up*/
+	}
+	
+nav a:hover { /*set hover highlights*/
+	color: black;
+	background-color: purple;
+	}
+	
+/*=============================Set up image gallery================================*/
+
+div li	{ /*make gallery images display next to each other*/
+	float: left;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	}
+	
+div { /*set a margin to put the image gallery in the center of the page*/
+	margin-left: 230px;
+	}
+	
+/*============================Set up text elements for all pages====================*/
+
+article, section, aside {
+	background-color: #66cdaa;
+	width: 70%;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+h2 {
+	margin-top: 20px;
+	}
+	
