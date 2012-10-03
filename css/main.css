@@ -40,6 +40,19 @@ header {
 header img { /*set even sides for display of both escape hatch logos */
 	margin: 20px 15px 0;
 	opacity: .6;
+	/*-----------------The following makes the logos spin when hovered over-----------*/
+	-webkit-transition:all 0.5s ease-out;
+	-moz-transition:all 0.5s ease-out;
+	-o-transition: all 0.5s ease out;
+	transition:all 0.5s ease-out;
+	}
+	
+header img:hover {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
 	}
 	
 header h1 { /*get the name of the business to evenly display in the middle of the logos*/
@@ -144,7 +157,7 @@ div ul { /*set a margin to put the image gallery in the center of the page*/
 	
 /*============================Set up text elements for all pages====================*/
 
-article, section, aside {
+article, section, aside { /*background color, text defining, margins, etc */
 	background-color: rgba(102, 205, 170, .7);
 	width: 70%;
 	border-radius: 15px;
@@ -161,24 +174,27 @@ article, section, aside {
 	border: dotted;
 	}
 	
-article {
+article { /* make a 3 column layout on home page */
 	-moz-column-count: 3;
-	-moz-column-gap: 20px;
+	-moz-column-gap: 15px;
 	-webkit-column-count: 3;
-	-webkit-column-gap: 20px;
-	column-count: 3
-	column-gap: 20px;
+	-webkit-column-gap: 15px;
+	column-count: 3;
+	column-gap: 15px;
 	text-align: left;
 	padding-top: 10px;
 	}
 	
+article em { /* make the italicized text stand out a little more*/
+	color: purple;
+	}
 	
-footer {
+	
+footer { /*clear footer so that it didn't float next to cta boxes*/
 	clear: both;
 	}
 	
 h2 {
-	padding-top: 10px;
 	text-decoration: underline;
 	}
 
@@ -191,7 +207,7 @@ section li {
 	}
 	
 a {
-	color: #4b0082;
+	color: #f00;
 	}
 	
 a:hover {
@@ -212,6 +228,10 @@ button {
 	margin-top: 60px;
 	margin-right: 20px;
 	margin-left: 430px;
+	}
+	
+button:hover {
+	color: #f00;
 	}
 	
 footer img {
