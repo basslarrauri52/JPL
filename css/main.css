@@ -1,12 +1,14 @@
 /*---------------------------Colors--------------------------------------------
 Forest Green--------#228b22
-Medium Aquamarine---#66cdaa
+Medium Aquamarine---#66cdaa, rgb(102,205,170)
 Orange Text Glow----#f87
+Midnight Blue-------#191970
+Indigo--------------#4b0082
 -----------------------------------------------------------------------------*/
 
 /*===================Main Body Styling=======================================*/
 body {
-	background-image: url(../images/site-background.jpg); /*Set background for the site*/
+	background-image: url(../images/broom.jpg); /*Set background for the site*/
 	background-repeat: repeat; /*make background image repeat on all axes*/
 	background-attachment:scroll; /*make background scroll*/
 	overflow: auto; /*make any overflow scroll*/
@@ -49,7 +51,7 @@ header h1 { /*get the name of the business to evenly display in the middle of th
 	}
 	
 h1 a { /*set the text color and a glowing shadow on the business name*/
-	color: #228b22;
+	color: #191970;
 	text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87, 0 0 0.2em #F87, 0 0 0.2em #F87; /*apply the same text shadow 4 times to make the title seem like it is lit up*/
 	}
 	
@@ -58,7 +60,7 @@ h1 a:hover{
 	}
 	
 #slogan, #phone { /*set the slogan and phone number to appear in the center under the business name*/
-	color: #228b22;
+	color: #191970;
 	font-weight: bolder;
 	text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87, 0 0 0.2em #F87, 0 0 0.2em #F87; /*apply the same text shadow 4 times to make the title seem like it is lit up*/
 	text-align: center;
@@ -99,7 +101,7 @@ nav { /* clear nav floats and set margins and padding*/
 	
 nav ul { /*set nav width, background, etc.*/
 	width: 70%;
-	background-color: #66cdaa;
+	background-color: rgba(102, 205, 170, .7);
 	margin: 0 auto;
 	border-radius: 15px;
 	overflow: hidden;
@@ -117,7 +119,7 @@ nav li { /*set text style, size, and nav element setup*/
 nav a { /*set link elements*/
 	display: block;
 	line-height: 30px;
-	color: #228b22;
+	color: #191970;
 	text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87, 0 0 0.2em #F87, 0 0 0.2em #F87; /*apply the same text shadow 4 times to make the title seem like it is lit up*/
 	}
 	
@@ -130,25 +132,90 @@ nav a:hover { /*set hover highlights*/
 
 div li	{ /*make gallery images display next to each other*/
 	float: left;
-	padding-left: 10px;
-	padding-bottom: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 15px;
+	background-color: rgba(102, 205, 170, .7);
 	}
 	
-div { /*set a margin to put the image gallery in the center of the page*/
+div ul { /*set a margin to put the image gallery in the center of the page*/
 	margin-left: 230px;
 	}
 	
 /*============================Set up text elements for all pages====================*/
 
 article, section, aside {
-	background-color: #66cdaa;
+	background-color: rgba(102, 205, 170, .7);
 	width: 70%;
 	border-radius: 15px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	font-weight: bolder;
+	color: #191970;
+	padding-bottom: 10px;
+	font-family: 'Eagle Lake', cursive, sans-serif;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border: dotted;
+	}
+	
+article {
+	-moz-column-count: 3;
+	-moz-column-gap: 20px;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 20px;
+	column-count: 3
+	column-gap: 20px;
+	text-align: left;
+	padding-top: 10px;
+	}
+	
+	
+footer {
+	clear: both;
+	}
 	
 h2 {
+	padding-top: 10px;
+	text-decoration: underline;
+	}
+
+section li {
+	margin-left: 300px;
+	text-align: justify;
+	display: list-item; 
+	list-style-image: url(../images/flower.png); 
+	list-style-position: outside;
+	}
+	
+a {
+	color: #4b0082;
+	}
+	
+a:hover {
+	color: black;
+	}
+	
+/*==========================Set up the footer======================================*/
+
+button {
+	display: block;
+	height: 30px;
+	background-color: rgba(102, 205, 170, .8);
+	border-radius: 15px;
+	font-family: 'Eagle Lake', cursive, sans-serif;
+	color: #191970;
+	font-size: 1em;
+	float: left;
+	margin-top: 60px;
+	margin-right: 20px;
+	margin-left: 430px;
+	}
+	
+footer img {
 	margin-top: 20px;
+	margin-bottom: 20px;
 	}
 	
