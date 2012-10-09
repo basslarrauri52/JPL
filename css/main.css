@@ -12,7 +12,7 @@ body {
 	background-repeat: repeat; /*make background image repeat on all axes*/
 	background-attachment:scroll; /*make background scroll*/
 	overflow: auto; /*make any overflow scroll*/
-	max-width: 2000px; /*set maximum width of the body*/
+	max-width: 1024px; /*set maximum width of the body*/
 	margin: 0 auto; /*set the top and bottom margin to 0 and the right and left to auto*/
 	}
 	
@@ -33,13 +33,13 @@ header {
 	margin-top: 1.953125%; /*set header top margin to 15px in percent for scaling*/
 	margin-left: auto; /*declaring a left & right margin of auto centers the header box*/
 	margin-right: auto; /*declaring a left & right margin of auto centers the header box*/
-	width: 70%; /*set width of the header to 70% of the entire screen which is 1400px*/
+	width: 90%; /*set width of the header to 90% of the entire screen which is 921.6px*/
 	border-radius: 15px;
 	}
 	
 header img { /*set even sides for display of both escape hatch logos */
-	margin: 1.428571428571% 2.142857142857% 0; /*20px/1400px,  30px/1400px 0;*/
-	width: 14.285714285714%; /* 200px / 1400px */
+	margin: 1.085069444444% 1.085069444444% 0; /*10px/921.6px,  10px/921.6px 0;*/
+	width: 16.276041666667%; /* 150px / 1400px */
 	opacity: .6;
 	/*-----------------The following makes the logos spin when hovered over-----------*/
 	-webkit-transition:all 0.5s ease-out;
@@ -57,9 +57,9 @@ header img:hover {
 	}
 	
 header h1 { /*get the name of the business to evenly display in the middle of the logos*/
-	margin-left: 10.357142857143%; /* 145px / 1400px */
-	margin-right: 10.357142857143%; /* 145px / 1400px */
-	margin-top: 5%; /* 70px / 1400px */
+	margin-left: 9.223090277778%; /* 85px / 921.6px */
+	margin-right: 9.223090277778%; /* 85px / 921.6px */
+	margin-top: 5.425347222222%; /* 50px / 921.6px */
 	font-family: 'Eagle Lake', cursive, sans-serif;
 	font-size: 2em;
 	}
@@ -169,7 +169,7 @@ div ul { /*set a margin to put the image gallery in the center of the page*/
 
 article, section, aside { /*background color, text defining, margins, etc */
 	background-color: rgba(102, 205, 170, .7);
-	width: 70%; /*70% of 1400px is 979.9999999999999*/
+	width: 90%; /*70% of 1400px is 979.9999999999999*/
 	border-radius: 15px;
 	margin-left: auto;
 	margin-right: auto;
@@ -245,5 +245,27 @@ footer img {
 	width: 16.428571428571%; /* 230px / 1400px */
 	margin-top: 1.428571428571%; /* 20px / 1400px */
 	margin-bottom: 1.428571428571%; /* 20px / 1400px */
+	}
+	
+/*==========================MEDIA QUERIES==========================================*/
+	
+/*Screen size 960px to 1023px*/
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+	body {background-image: none; background-color: yellow;}
+	}
+	
+/*Tablet portrait size to standard 960 (devices & browsers)*/
+@media only screen and (min-width: 768px) and (max-width: 959px){
+	body {background-image: none; background-color: pink;}
+	}
+	
+/*Mobile landscape size to tablet portrait size (devices & browsers)*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	body {background-image: none; background-color: blue;}
+	}
+	
+/*Mobile portrait size to mobile landscape size (devices & browsers)*/
+@media only screen and (max-width: 479px) {
+	body {background-image: none; background-color: black;}
 	}
 	
