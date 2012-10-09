@@ -114,7 +114,7 @@ nav { /* clear nav floats and set margins and padding*/
 	}
 	
 nav ul { /*set nav width, background, etc.*/
-	width: 70% /*70% of 1400px is 979.9999999999999*/;
+	width: 70%; /*70% of 1400px is 979.9999999999999*/
 	background-color: rgba(102, 205, 170, .7);
 	margin: 0 auto;
 	border-radius: 15px;
@@ -162,25 +162,23 @@ div img {
 	}
 	
 div ul { /*set a margin to put the image gallery in the center of the page*/
-	margin-left: 17.460317460317%; /* 220px / 1400px */
+	margin-left: 18.571428571429%; /* 260px / 1400px */
 	}
 	
 /*============================Set up text elements for all pages====================*/
 
 article, section, aside { /*background color, text defining, margins, etc */
 	background-color: rgba(102, 205, 170, .7);
-	width: 70%;
+	width: 70%; /*70% of 1400px is 979.9999999999999*/
 	border-radius: 15px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	font-weight: bolder;
 	color: #191970;
-	padding-bottom: 10px;
+	padding: 0.510204081633%; /* 5px / 979.9999999999999px */
 	font-family: 'Eagle Lake', cursive, sans-serif;
-	padding-right: 10px;
-	padding-left: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 0;
 	border: dotted;
 	}
 	
@@ -192,7 +190,6 @@ article { /* make a 3 column layout on home page */
 	column-count: 3;
 	column-gap: 15px;
 	text-align: left;
-	padding-top: 10px;
 	}
 	
 article em { /* make the italicized text stand out a little more*/
@@ -200,7 +197,7 @@ article em { /* make the italicized text stand out a little more*/
 	}
 	
 	
-footer { /*clear footer so that it didn't float next to cta boxes*/
+footer { /*clear footer so that it doesn't float next to cta boxes*/
 	clear: both;
 	}
 	
@@ -235,9 +232,9 @@ button {
 	color: #191970;
 	font-size: 1em;
 	float: left;
-	margin-top: 60px;
-	margin-right: 20px;
-	margin-left: 430px;
+	margin-top: 4.285714285714%; /* 60px /1400px */
+	margin-right: 1.428571428571%; /* 20px / 1400px */
+	margin-left: 30.714285714286%; /* 430px / 1400px */
 	}
 	
 button:hover {
@@ -245,7 +242,8 @@ button:hover {
 	}
 	
 footer img {
-	margin-top: 20px;
-	margin-bottom: 20px;
+	width: 16.428571428571%; /* 230px / 1400px */
+	margin-top: 1.428571428571%; /* 20px / 1400px */
+	margin-bottom: 1.428571428571%; /* 20px / 1400px */
 	}
 	
