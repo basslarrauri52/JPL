@@ -12,7 +12,7 @@ body {
 	background-repeat: repeat; /*make background image repeat on all axes*/
 	background-attachment:scroll; /*make background scroll*/
 	overflow: auto; /*make any overflow scroll*/
-	max-width: 100%; /*set maximum width of the body*/
+	max-width: 2000px; /*set maximum width of the body*/
 	margin: 0 auto; /*set the top and bottom margin to 0 and the right and left to auto*/
 	}
 	
@@ -33,12 +33,13 @@ header {
 	margin-top: 1.953125%; /*set header top margin to 15px in percent for scaling*/
 	margin-left: auto; /*declaring a left & right margin of auto centers the header box*/
 	margin-right: auto; /*declaring a left & right margin of auto centers the header box*/
-	width: 70%; /*set width of the header to 70% of the entire screen*/
+	width: 70%; /*set width of the header to 70% of the entire screen which is 1400px*/
 	border-radius: 15px;
 	}
 	
 header img { /*set even sides for display of both escape hatch logos */
-	margin: 20px 15px 0;
+	margin: 1.428571428571% 2.142857142857% 0; /*20px/1400px,  30px/1400px 0;*/
+	width: 14.285714285714%; /* 200px / 1400px */
 	opacity: .6;
 	/*-----------------The following makes the logos spin when hovered over-----------*/
 	-webkit-transition:all 0.5s ease-out;
@@ -56,9 +57,9 @@ header img:hover {
 	}
 	
 header h1 { /*get the name of the business to evenly display in the middle of the logos*/
-	margin-left: 100px;
-	margin-right: 100px;
-	margin-top: 70px;
+	margin-left: 10.357142857143%; /* 145px / 1400px */
+	margin-right: 10.357142857143%; /* 145px / 1400px */
+	margin-top: 5%; /* 70px / 1400px */
 	font-family: 'Eagle Lake', cursive, sans-serif;
 	font-size: 2em;
 	}
@@ -77,7 +78,7 @@ h1 a:hover{
 	font-weight: bolder;
 	text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87, 0 0 0.2em #F87, 0 0 0.2em #F87; /*apply the same text shadow 4 times to make the title seem like it is lit up*/
 	text-align: center;
-	margin-left: -40px;
+	margin-left: -4.285714285714%; /* 60px / 1400px */;
 	font-family: 'Eagle Lake', cursive, sans-serif;
 	font-size: 1.2em;
 	}
@@ -95,7 +96,7 @@ header img, h1 {
 	}
 	
 #phone {
-	padding-bottom: 20px;
+	padding-bottom: 1.428571428571%; /* 20px / 1400px */
 	}
 	
 		/*--------------Make image gallery and things under display under the header----------------*/
@@ -108,12 +109,12 @@ header img, h1 {
 
 nav { /* clear nav floats and set margins and padding*/
 	clear: both;
-	padding-bottom: 20px;
-	margin-top: -20px;
+	padding-bottom: 1.428571428571%; /* 20px / 1400px */
+	margin-top: -1.428571428571%; /* 20px / 1400px */
 	}
 	
 nav ul { /*set nav width, background, etc.*/
-	width: 70%;
+	width: 70% /*70% of 1400px is 979.9999999999999*/;
 	background-color: rgba(102, 205, 170, .7);
 	margin: 0 auto;
 	border-radius: 15px;
@@ -123,7 +124,7 @@ nav ul { /*set nav width, background, etc.*/
 	
 nav li { /*set text style, size, and nav element setup*/
 	float: left;
-	margin: 0 30px;
+	margin: 0 4.081632653061%; /* 40px / 979.9999999999999px */
 	font-family: 'Eagle Lake', cursive, sans-serif;
 	font-size: 1em;
 	font-weight: bolder;
@@ -131,7 +132,7 @@ nav li { /*set text style, size, and nav element setup*/
 	
 nav a { /*set link elements*/
 	display: block;
-	line-height: 30px;
+	line-height: 1.875em; /* 30px / 16px */
 	color: #191970;
 	text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87, 0 0 0.2em #F87, 0 0 0.2em #F87; /*apply the same text shadow 4 times to make the title seem like it is lit up*/
 	}
@@ -143,16 +144,25 @@ nav a:hover { /*set hover highlights*/
 	
 /*=============================Set up image gallery================================*/
 
+div {
+	width: 90% /* 90% of 1400 is 1260px */;
+	}
+	
 div li	{ /*make gallery images display next to each other*/
 	float: left;
-	padding: 10px;
-	margin-bottom: 10px;
+	padding: 0.793650793651%; /* 10px / 1260px */
+	margin-bottom: 0.793650793651%; /* 10px / 1260px */
 	border-radius: 15px;
 	background-color: rgba(102, 205, 170, .7);
+	width: 15.079365079365%; /* 190px / 1260px */
+	}
+	
+div img {
+	max-width: 100%;
 	}
 	
 div ul { /*set a margin to put the image gallery in the center of the page*/
-	margin-left: 230px;
+	margin-left: 17.460317460317%; /* 220px / 1400px */
 	}
 	
 /*============================Set up text elements for all pages====================*/
