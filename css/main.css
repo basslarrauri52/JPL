@@ -39,7 +39,7 @@ header {
 	
 header img { /*set even sides for display of both escape hatch logos */
 	margin: 1.085069444444% 1.085069444444% 0; /*10px/921.6px,  10px/921.6px 0;*/
-	width: 16.276041666667%; /* 150px / 1400px */
+	width: 16.276041666667%; /* 150px / 921.6px */
 	opacity: .6;
 	/*-----------------The following makes the logos spin when hovered over-----------*/
 	-webkit-transition:all 0.5s ease-out;
@@ -78,7 +78,7 @@ h1 a:hover{
 	font-weight: bolder;
 	text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87, 0 0 0.2em #F87, 0 0 0.2em #F87; /*apply the same text shadow 4 times to make the title seem like it is lit up*/
 	text-align: center;
-	margin-left: -4.285714285714%; /* 60px / 1400px */;
+	margin-left: -5.425347222222%; /* 50px / 921.6px */;
 	font-family: 'Eagle Lake', cursive, sans-serif;
 	font-size: 1.2em;
 	}
@@ -96,7 +96,7 @@ header img, h1 {
 	}
 	
 #phone {
-	padding-bottom: 1.428571428571%; /* 20px / 1400px */
+	padding-bottom: 1.085069444444%; /* 10px / 921.6px */
 	}
 	
 		/*--------------Make image gallery and things under display under the header----------------*/
@@ -109,12 +109,12 @@ header img, h1 {
 
 nav { /* clear nav floats and set margins and padding*/
 	clear: both;
-	padding-bottom: 1.428571428571%; /* 20px / 1400px */
-	margin-top: -1.428571428571%; /* 20px / 1400px */
+	padding-bottom: 1.085069444444%; /* 10px / 921.6px */
+	margin-top: -1.085069444444%; /* 10px / 921.6px */
 	}
 	
 nav ul { /*set nav width, background, etc.*/
-	width: 70%; /*70% of 1400px is 979.9999999999999*/
+	width: 70%; /*70% of 921.6px is 645.12*/
 	background-color: rgba(102, 205, 170, .7);
 	margin: 0 auto;
 	border-radius: 15px;
@@ -124,7 +124,7 @@ nav ul { /*set nav width, background, etc.*/
 	
 nav li { /*set text style, size, and nav element setup*/
 	float: left;
-	margin: 0 4.081632653061%; /* 40px / 979.9999999999999px */
+	margin: 0 3.875248015873%; /* 25px / 645.12px */
 	font-family: 'Eagle Lake', cursive, sans-serif;
 	font-size: 1em;
 	font-weight: bolder;
@@ -145,16 +145,16 @@ nav a:hover { /*set hover highlights*/
 /*=============================Set up image gallery================================*/
 
 div {
-	width: 90% /* 90% of 1400 is 1260px */;
+	width: 90% /* 90% of 1024 is 921.6px */;
 	}
 	
 div li	{ /*make gallery images display next to each other*/
 	float: left;
-	padding: 0.793650793651%; /* 10px / 1260px */
-	margin-bottom: 0.793650793651%; /* 10px / 1260px */
+	padding: 1.085069444444%; /* 10px / 921.6px */
+	margin-bottom: 2.170138888889%; /* 20px / 921.6px */
 	border-radius: 15px;
 	background-color: rgba(102, 205, 170, .7);
-	width: 15.079365079365%; /* 190px / 1260px */
+	width: 17.361111111111%; /* 160px / 921.6px */
 	}
 	
 div img {
@@ -162,21 +162,20 @@ div img {
 	}
 	
 div ul { /*set a margin to put the image gallery in the center of the page*/
-	margin-left: 18.571428571429%; /* 260px / 1400px */
+	margin-left: 9.223090277778%; /* 85px / 921.6px */
 	}
-	
 /*============================Set up text elements for all pages====================*/
 
 article, section, aside { /*background color, text defining, margins, etc */
 	background-color: rgba(102, 205, 170, .7);
-	width: 90%; /*70% of 1400px is 979.9999999999999*/
+	width: 90%; /*90% of 1024 is 921.6px*/
 	border-radius: 15px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	font-weight: bolder;
 	color: #191970;
-	padding: 0.510204081633%; /* 5px / 979.9999999999999px */
+	padding: 0.542534722222%; /* 5px / 921.6px */
 	font-family: 'Eagle Lake', cursive, sans-serif;
 	padding-bottom: 0;
 	border: dotted;
@@ -184,11 +183,11 @@ article, section, aside { /*background color, text defining, margins, etc */
 	
 article { /* make a 3 column layout on home page */
 	-moz-column-count: 3;
-	-moz-column-gap: 15px;
+	-moz-column-gap: 10px;
 	-webkit-column-count: 3;
-	-webkit-column-gap: 15px;
+	-webkit-column-gap: 10px;
 	column-count: 3;
-	column-gap: 15px;
+	column-gap: 10px;
 	text-align: left;
 	}
 	
@@ -196,17 +195,17 @@ article em { /* make the italicized text stand out a little more*/
 	color: purple;
 	}
 	
-	
 footer { /*clear footer so that it doesn't float next to cta boxes*/
 	clear: both;
 	}
 	
 h2 {
 	text-decoration: underline;
+	color: red;
 	}
 
 section li {
-	margin-left: 300px;
+	margin-left: 32.552083333333%; /* 300px / 921.6px */
 	text-align: justify;
 	display: list-item; 
 	list-style-image: url(../images/flower.png); 
@@ -232,9 +231,9 @@ button {
 	color: #191970;
 	font-size: 1em;
 	float: left;
-	margin-top: 4.285714285714%; /* 60px /1400px */
-	margin-right: 1.428571428571%; /* 20px / 1400px */
-	margin-left: 30.714285714286%; /* 430px / 1400px */
+	margin-top: 4.39453125%; /* 45px /1024px */
+	margin-right: 1.953125%; /* 20px / 1024px */
+	margin-left: 30.76171875%; /* 315px / 1024px */
 	}
 	
 button:hover {
@@ -243,29 +242,64 @@ button:hover {
 	
 footer img {
 	width: 16.428571428571%; /* 230px / 1400px */
-	margin-top: 1.428571428571%; /* 20px / 1400px */
-	margin-bottom: 1.428571428571%; /* 20px / 1400px */
+	/*margin-top: 1.428571428571%; /* 20px / 1400px */
+	/*margin-bottom: 1.428571428571%; /* 20px / 1400px */
+	margin: 1.428571428571% /* 20px / 1400px */ auto;
 	}
 	
 /*==========================MEDIA QUERIES==========================================*/
 	
-/*Screen size 960px to 1023px*/
+/*Screen size 960px to 1023px* new 90% is 920.7*/
 @media only screen and (min-width: 960px) and (max-width: 1023px) {
-	body {background-image: none; background-color: yellow;}
+	/*body {background-image: none; background-color: yellow;}*/
+	header img {width: 14.229691529046%; /*130/920.7*/ padding-right: 0.543065059194%; /*5/920.7*/ padding-left: 1.086130118388%; /*10/920.7*/}
+	header h1 {font-size: 1.9em; margin-left: 8.145975887911%; /*75/920.7*/ margin-right: 8.145975887911%; /*75/920.7*/}
+	nav li {margin: 1.629195177582%; /*15/920.7*/}
+	nav ul {width: 60%;}
 	}
 	
-/*Tablet portrait size to standard 960 (devices & browsers)*/
+/*Tablet portrait size to standard 960 (devices & browsers) new 90% is 863.1*/
 @media only screen and (min-width: 768px) and (max-width: 959px){
-	body {background-image: none; background-color: pink;}
+	/*body {background-image: none; background-color: pink;}*/
+	header img {width: 12.744757270305%; /*110/863.1*/ padding-right: 0.57930714865%; /*5/863.1*/ padding-left: 1.1586142973%; /*10/863.1*/}
+	header h1 {font-size: 1.7em; margin-left: 7.530992932453%; /*65/863.1*/ margin-right: 7.530992932453%; /*65/863.1*/}
+	nav li {margin: 1.737921445951%; /*15/863.1*/}
+	nav ul {width: 75%;}
 	}
 	
-/*Mobile landscape size to tablet portrait size (devices & browsers)*/
+/*Mobile landscape size to tablet portrait size (devices & browsers) new 90% is 690.3000000000001*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	body {background-image: none; background-color: blue;}
+	/*body {background-image: none; background-color: blue;}*/
+	#logo-2 {display: none;}
+	header h1 {font-size: 1.25em; margin-top: 3.255208333333%; /* 30px / 921.6px */ margin-left: 10.140518615095%; /*70/690.3000000000001*/}
+	nav li {font-size: 0.7em; margin-left: 0;/*.724322758221%;/*1.448645516442%; /*10/690.3000000000001*/}
+	nav ul {width: 85%;}
+	article {
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+		column-count: 1;
+		}
+	section li {text-align: left;}
+	footer {font-size: .75em; margin-left: auto; margin-right: auto;}
+	footer img {display: none;}
 	}
 	
 /*Mobile portrait size to mobile landscape size (devices & browsers)*/
 @media only screen and (max-width: 479px) {
-	body {background-image: none; background-color: black;}
+	/*body {background-image: none; background-color: black;}*/
+	header img {display: none;}
+	#images {display: none;}
+	header h1 {font-size: 1.5em; text-align: center;}
+	nav li {font-size: 0.75em;}
+	article {
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+		column-count: 1;
+		}
+	footer {font-size: .75em; margin-left: auto; margin-right: auto;}
+	footer img {display: none;}
+	article, section, aside {margin-top: 3.255208333333%; /* 30px / 921.6px*/}
+	section li {text-align: left;}
+	h2 {text-align: center;}
 	}
 	
