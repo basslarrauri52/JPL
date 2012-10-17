@@ -53,7 +53,86 @@
 			</ul>
 		</aside>
 		
-		<!--Marker area left for a contact form-->
+		<form id="contact" method="post" action="mailto:jplcleaningservice@gmail.com">
+			<fieldset>
+				<legend>Please tell us a little about yourself</legend>
+					<fieldset>
+						<legend>Please tell us your name</legend>
+							<label id="name_first" for="first_name">What is your first name?</label>
+							<input type="text" name="first_name" id="first_name"/>
+							<br/>
+							<label id="name_last" for="last_name">What is your last name?</label>
+							<input type="text" name="last_name" id="last_name"/>
+					</fieldset>
+					<fieldset>
+						<legend>Please tell use your contact information</legend>
+							<label id="address" for="street">What is your street address?</label>
+							<input type="text" name="street" id="street"/>
+							<br/>
+							<label id="cty" for="city">What city do you live in?</label>
+							<input type="text" name="city" id="city"/>
+							<br/>
+							<label id="st" for="state">What state do you live in?</label>
+							<input type="text" name="state" id="state"/>
+							<br/>
+							<label id="zip" for="zipcode">What is your zip code?</label>
+							<input type="text" name="zipcode" id="zipcode"/>
+							<br/>
+							<label id="cnty" for="county">What county do you live in?</label>
+								<select name="county" id="county">
+									<option>Orange County</option>
+									<option>Dutchess County</option>
+								</select>
+							<br/>
+							<label id="phonenum" for="phone_number">What is your phone number?</label>
+							<input type="tel" name="phone_number" id="phone_number"/>
+							<br/>
+							<label id="em" for="email">What is your email address?</label>
+							<input type="email" name="email" id="email"/>
+					</fieldset>
+			</fieldset>
+			<fieldset>
+					<fieldset>
+						<legend>What would you like to get information about?</legend>
+								<h5>Don't see your choice on the list?  Pick anything and ask your question in the box provided.</h5>
+								<select name="services" id="services">
+									<option>General inquiry</option>
+									<option>Pricing</option>
+									<option>Scheduling an appointment</option>
+									<option>Specials</option>
+									<option>One time cleaning</option>
+									<option>Monthly cleaning</option>
+									<option>Bi-monthly cleaning</option>
+									<option>Weekly cleaning</option>
+									<option>Daily cleaning</option>
+									<option>Residential cleaning</option>
+									<option>Commercial cleaning</option>
+									<option>Window cleaning</option>
+									<option>Steam cleaning</option>
+									<option>Carpet shampooing</option>
+									<option>In home laundry service</option>
+									<option>Single room organization</option>
+									<option>Entire home organization</option>
+								</select>
+								<br/>
+								<label id="qh" for="question">What is your question?  Please be specific.</label>
+								<textarea rows="10" cols="30" name="question" id="question"></textarea>
+					</fieldset>	
+			</fieldset>
+			<fieldset>
+				<legend>How do you prefer to be contacted?</legend>
+					<input type="radio" name="contact_phone" id="contact_phone"/>
+						<p>Please contact me by phone only</p>
+					<br/>
+					<input type="radio" name="contact_email" id="contact_email"/>
+						<p>Please contact me by email only</p>
+					<br/>
+					<input type="radio" name="phone_first" id="phone_first"/>
+						<p>Please contact me by phone first and then by email</p>
+					<br/>
+			<button type="submit" name="submit" class="submit">Submit Form</button>
+			</fieldset>
+		</form>
 		
 		<footer>
 			<!--The following will be a button that allows site viewers to go to JPL's facebook page

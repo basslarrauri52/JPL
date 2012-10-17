@@ -220,9 +220,121 @@ a:hover {
 	color: black;
 	}
 	
+/*==========================Set up the contact form================================*/
+#contact {
+	font-family: 'Eagle Lake', cursive, sans-serif;
+	color: #191970;
+	font-weight: bolder;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2.170138888889%; /* 20px / 921.6px */
+	background-color: rgba(102, 205, 170, .8);
+	border-radius: 15px;
+	border: dotted;
+	padding: 0.5%;
+	}
+	
+h5, #qh {
+	font-weight: bolder;
+	}
+	
+#services {
+	margin-left: 57%;
+	margin-bottom: 2%;
+	}
+
+legend {
+	text-align: center;
+	color: red;
+	}
+
+input:focus, textarea:focus {
+	background: yellow;
+	}
+	
+input {
+	border-radius: 15px;
+	}
+
+textarea {
+	border-radius: 10px;
+	}
+	
+#qh {
+	float: left;
+	margin-top: 7%;
+	margin-right: 3.5%;
+	margin-left: 6.2%;
+	}
+	
+fieldset p {
+	display: inline;
+	}
+
+#name_first {
+	margin-left: 24.5%;
+	margin-right: 3.4%;
+	}
+	
+#name_last {
+	margin-left: 25%;
+	margin-right: 3.7%;
+	}
+	
+#address {
+	margin-left: 20%;
+	margin-right: 3.5%;
+	}
+	
+#cty {
+	margin-left: 24.5%;
+	margin-right: 3.5%;
+	}
+	
+#st {
+	margin-left: 23%;
+	margin-right: 3.5%;
+	}
+	
+#zip {
+	margin-left: 26.75%;
+	margin-right: 3.5%;
+	}
+	
+#cnty {
+	margin-left: 21%;
+	margin-right: 3.5%;
+	}
+	
+#phonenum {
+	margin-left: 19.6%;
+	margin-right: 3.5%;
+	}
+
+#em {
+	margin-left: 20.4%;
+	margin-right: 3.5%;
+	}	
+
+.submit {
+	margin-left: 40%;
+	width: 20%;
+	height: 30px;
+	background-color: #f87;
+	border-radius: 15px;
+	font-family: 'Eagle Lake', cursive, sans-serif;
+	color: #191970;
+	font-size: 1em;
+	margin-top: 1%;
+	}
+	
+.submit:hover {
+	color: #f00;
+	}
 /*==========================Set up the footer======================================*/
 
-button {
+#like {
 	display: block;
 	height: 30px;
 	background-color: rgba(102, 205, 170, .8);
@@ -236,7 +348,7 @@ button {
 	margin-left: 30.76171875%; /* 315px / 1024px */
 	}
 	
-button:hover {
+#like:hover {
 	color: #f00;
 	}
 	
@@ -290,7 +402,8 @@ footer img {
 	header img {display: none;}
 	#images {display: none;}
 	header h1 {font-size: 1.5em; text-align: center;}
-	nav li {font-size: 0.75em;}
+	nav li {font-size: 0.55em; margin-left: -0.2%;}
+	nav ul {width: 70%; margin-left: auto; margin-right: auto;}
 	article {
 		-moz-column-count: 1;
 		-webkit-column-count: 1;
