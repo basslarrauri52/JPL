@@ -202,6 +202,7 @@ footer { /*clear footer so that it doesn't float next to cta boxes*/
 h2 {
 	text-decoration: underline;
 	color: red;
+	font-size: 1.6em;
 	}
 
 section li {
@@ -210,6 +211,7 @@ section li {
 	display: list-item; 
 	list-style-image: url(../images/flower.png); 
 	list-style-position: outside;
+	font-size: 1.3em;
 	}
 	
 a {
@@ -220,11 +222,38 @@ a:hover {
 	color: black;
 	}
 	
+/*==========================DEVON......SET THE TABLES!!!!===========================*/
+table, tr, td, th, caption {
+	border: solid;
+	border-collapse: collapse;
+	}
+	
+caption {
+	border-bottom: none;
+	}
+	
+th {
+	border-color: #f87;
+	font-size: 1.2em;
+	}
+	
+td {
+	font-weight: normal;
+	border-color: #f87;
+	}
+	
+caption {
+	font-size: 1.5em;
+	border-color: #f87;
+	text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87, 0 0 0.2em #F87, 0 0 0.2em #F87; /*apply the same text shadow 4 times to make the title seem like it is lit up*/
+	}
+		
 /*==========================Set up the contact form================================*/
 #contact {
 	font-family: 'Eagle Lake', cursive, sans-serif;
 	color: #191970;
 	font-weight: bolder;
+	font-size: 1em;
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
@@ -239,7 +268,7 @@ h5, #qh {
 	font-weight: bolder;
 	}
 	
-#services {
+#service {
 	margin-left: 57%;
 	margin-bottom: 2%;
 	}
