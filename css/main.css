@@ -226,8 +226,9 @@ a:hover {
 table, tr, td, th, caption {
 	border: solid;
 	border-collapse: collapse;
+	background: rgba(208,208,208,0.25)
 	}
-	
+		
 caption {
 	border-bottom: none;
 	}
@@ -235,6 +236,7 @@ caption {
 th {
 	border-color: #f87;
 	font-size: 1.2em;
+	border-radius: 15px;
 	}
 	
 td {
@@ -397,6 +399,7 @@ footer img {
 	header h1 {font-size: 1.9em; margin-left: 8.145975887911%; /*75/920.7*/ margin-right: 8.145975887911%; /*75/920.7*/}
 	nav li {margin: 1.629195177582%; /*15/920.7*/}
 	nav ul {width: 60%;}
+	#service {margin-left:58%;}
 	}
 	
 /*Tablet portrait size to standard 960 (devices & browsers) new 90% is 863.1*/
@@ -406,6 +409,10 @@ footer img {
 	header h1 {font-size: 1.7em; margin-left: 7.530992932453%; /*65/863.1*/ margin-right: 7.530992932453%; /*65/863.1*/}
 	nav li {margin: 1.737921445951%; /*15/863.1*/}
 	nav ul {width: 75%;}
+	#service {margin-left: 61.5%;}
+	#city {margin-left: 0.7%;}
+	#state {margin-left: 0.5%;}
+	#zipcode, #county {margin-left: 0.7%;}
 	}
 	
 /*Mobile landscape size to tablet portrait size (devices & browsers) new 90% is 690.3000000000001*/
@@ -423,6 +430,15 @@ footer img {
 	section li {text-align: left;}
 	footer {font-size: .75em; margin-left: auto; margin-right: auto;}
 	footer img {display: none;}
+	#service {margin-left: 35%;}
+	textarea {margin-left: 35%;}
+	#address {margin-left: 18%;}
+	#st {margin-left: 22.1%;}
+	#zipcode {margin-left: 0.6%;}
+	#cnty {margin-left: 18.5%;}
+	#county {margin-left: 1%;}
+	#phonenum {margin-left: 17%;}
+	#em {margin-left: 18%;}
 	}
 	
 /*Mobile portrait size to mobile landscape size (devices & browsers)*/
@@ -443,5 +459,6 @@ footer img {
 	article, section, aside {margin-top: 3.255208333333%; /* 30px / 921.6px*/}
 	section li {text-align: left;}
 	h2 {text-align: center;}
+	#contact label, #service {margin-left: auto; margin-right: auto;}
 	}
 	
